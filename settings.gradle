@@ -1,0 +1,3 @@
+rootProject.name = 'robot-demo'
+include 'src'
+findProject(':src')?.name = 'demo'
