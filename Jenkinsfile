@@ -1,7 +1,7 @@
 stage 'build_Project'
 node{
   if(isUnix()){
-  bash 'gradle build --info'
+  sh 'gradle build --info'
 
   }
   else{
