@@ -5,6 +5,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
 
 
 sourceCompatibility = 1.8
@@ -21,6 +22,11 @@ dependencies {
             'edu.wpi.first.wpilib.networktables.java:NetworkTables:3.0.0-SNAPSHOT',
             'edu.wpi.first.wpilibj:wpilibJavaFinal:0.1.0-SNAPSHOT'
     )
+}
+
+checkstyle {
+    configFile = rootProject.file('config/checkstyle/checkstyle.xml')
+    toolVersion = '7.1.2'
 }
 
 jar {
