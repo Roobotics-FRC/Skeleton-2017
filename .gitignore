@@ -5,7 +5,6 @@
 build/
 bin/
 *.class
-*.jar
 # Play nice with eclipse
 .classpath
 .project
