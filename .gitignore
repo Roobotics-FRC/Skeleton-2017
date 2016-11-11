@@ -9,6 +9,7 @@ bin/
 *.class
 # Play nice with eclipse
 .classpath
+.settings/
 .project
 # Don't commit gradle caches
 .gradle/
