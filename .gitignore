@@ -1,6 +1,8 @@
 # Play nice with intellij
 .idea/
 *.iml
+*.ipr
+*.iws
 # Don't commit build files
 build/
 bin/
